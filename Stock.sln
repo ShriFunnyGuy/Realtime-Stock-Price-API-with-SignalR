@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36408.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stock.RealTime.Api", "Stock.RealTime.Api\Stock.RealTime.Api.csproj", "{16FB9AE6-B7EB-CB8E-2A00-938AF72CC014}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stock.AppHost", "Stock.AppHost\Stock.AppHost.csproj", "{89FBB601-1808-4C26-94A6-956D949CCDCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stock.ServiceDefaults", "Stock.ServiceDefaults\Stock.ServiceDefaults.csproj", "{DD5C4F7A-A316-C83C-9EE6-4CE6C9268FDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stock.Models", "Stock.Models\Stock.Models.csproj", "{F7868763-8234-35F9-2156-5D650E5EB04B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Stock.ClientUI", "Stock.ClientUI", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		..\Stock-UI\index.html = ..\Stock-UI\index.html
+		..\Stock-UI\script.js = ..\Stock-UI\script.js
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16FB9AE6-B7EB-CB8E-2A00-938AF72CC014}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16FB9AE6-B7EB-CB8E-2A00-938AF72CC014}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16FB9AE6-B7EB-CB8E-2A00-938AF72CC014}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16FB9AE6-B7EB-CB8E-2A00-938AF72CC014}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89FBB601-1808-4C26-94A6-956D949CCDCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89FBB601-1808-4C26-94A6-956D949CCDCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89FBB601-1808-4C26-94A6-956D949CCDCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89FBB601-1808-4C26-94A6-956D949CCDCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD5C4F7A-A316-C83C-9EE6-4CE6C9268FDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD5C4F7A-A316-C83C-9EE6-4CE6C9268FDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD5C4F7A-A316-C83C-9EE6-4CE6C9268FDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD5C4F7A-A316-C83C-9EE6-4CE6C9268FDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7868763-8234-35F9-2156-5D650E5EB04B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7868763-8234-35F9-2156-5D650E5EB04B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7868763-8234-35F9-2156-5D650E5EB04B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7868763-8234-35F9-2156-5D650E5EB04B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {65FED144-5F5F-4322-A7F5-340A3EF69BBE}
+	EndGlobalSection
+EndGlobal
