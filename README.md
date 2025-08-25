@@ -46,7 +46,7 @@ SignalR
 
 PostgreSQL
 - The DatabaseInitializer will:
-  - Ensure the database exists (by connecting to ìpostgresî then creating your DB if missing)
+  - Ensure the database exists (by connecting to ‚Äúpostgres‚Äù then creating your DB if missing)
   - Create table public.stock_prices with indices if missing
 
 Schema
@@ -65,7 +65,7 @@ Testing the hub with Postman (optional)
 
 Troubleshooting
 - CORS with credentials: If the browser says Access-Control-Allow-Origin must not be *, ensure Program.cs uses WithOrigins(...) and AllowCredentials(), and your UI uses the exact origin listed.
-- ìNo client method ëReceivedStockPriceUpdateíî: Register connection.on("ReceivedStockPriceUpdate", ...) before connection.start().
+- ‚ÄúNo client method ‚ÄòReceivedStockPriceUpdate‚Äô‚Äù: Register connection.on("ReceivedStockPriceUpdate", ...) before connection.start().
 - DB/table not found: Ensure your connection string is correct. DatabaseInitializer runs at startup to create the DB/table if missing.
 - Groups reset on reconnect: Re-subscribe to tickers after reconnect (SignalR drops group membership).
 
@@ -74,10 +74,3 @@ Project commands
 - Build: dotnet build
 - Run API: dotnet run --project Stock.RealTime.Api
 - Run AppHost (if used): dotnet run --project Stock.AppHost
-
-Security
-- Do not commit API keys or production connection strings.
-- Prefer environment variables or user-secrets in development.
-
-License
-- Add your license here.
